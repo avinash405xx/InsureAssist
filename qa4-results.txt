@@ -1,0 +1,6 @@
+PASS | HI-1 Hindi step 2 renders (fallback) | कार इंश्योरेंस  जानकारी की पुष्टि करें ← पीछे चरण 2 / 7  अभी वाहन की जानकारी नहीं मिल पाई।
+FAIL | HI-2 Hindi contact step | कार इंश्योरेंस  आपको किस तरह की मदद चाहिए? ← पीछे चरण 4 / 7  अपनी ज़रूरत के सबसे नज़दीकी व
+PASS | HI-3 Hindi options step | कार इंश्योरेंस  उपलब्ध विकल्प ← पीछे चरण 5 / 7  हम आपकी आवश्यकता के अनुसार उपलब्ध विकल्पों
+FAIL | HI-4 Hindi review step (no undefined) | कार इंश्योरेंस  जानकारी की समीक्षा ← पीछे चरण 6 / 7  आपकी जानकारी  रजिस्ट्रेशन नंबर  MH12A
+PASS | HI-5 no page errors in Hindi flow
+PASS | S1 hero input usable on emulated Slow 3G | DCL=1652ms

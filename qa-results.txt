@@ -1,0 +1,10 @@
+PASS | T1 English default on first load
+PASS | T2 hero vehicle-number field visible
+PASS | T3 hero headline present | Check Your Vehicle Insurance
+PASS | H1 Hindi appears after selecting हिंदी | इंश्योरेंस खरीद और क्लेम सहायता। अंतिम पॉलिसी निर्णय बीमा कंपनी के पास रहता है। 
+PASS | H2 no page reload on language switch
+PASS | H3 form data preserved on language switch | MH12AB1234
+PASS | H4 toggle button was clickable
+PASS | H5 back to full English after EN
+PASS | H6 form data still preserved | MH12AB1234
+--STAGE1--

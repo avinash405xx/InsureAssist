@@ -1,0 +1,2 @@
+PASS | K1 category images load when scrolled into view | [["/vehicles/car.jpg",true],["/vehicles/bike.jpg",true],["/vehicles/tractor.jpg",true],["/vehicles/commercial.jpg",true]]
+PASS | K5 all vehicle image responses 200 | {"car.jpg":200,"bike.jpg":200,"tractor.jpg":200,"commercial.jpg":200}

@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/insurance/:category", "destination": "/index.html" },
+    { "source": "/((?!assets/).*)", "destination": "/index.html" }
+  ]
+}

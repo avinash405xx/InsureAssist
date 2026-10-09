@@ -1,0 +1,7 @@
+PASS | N1 non-vehicle skips to contact step | HEALTH INSURANCE  Contact information ← Back Step 2 / 6  How can we contact you?
+PASS | N2 no reg-number field for health
+PASS | N3 change-category returns to category select
+PASS | N4 non-vehicle step 1 has no reg box
+PASS | N5 continue reaches contact step again | HEALTH INSURANCE  Contact information ← Back Step 2 / 6  How
+PASS | N6 category card click switches context | Bike Insurance Check Your Vehicle Insurance  Enter your vehi
+PASS | N7 no page errors

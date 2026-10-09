@@ -1,0 +1,17 @@
+PASS | F1 lookup failure shows manual fallback (no API error) | CAR INSURANCE  Verify your details ← Back Step 2 / 7  We couldn't find the vehicle details right now
+PASS | F2 manual entry offered
+PASS | F3 reached contact step (name + mobile only) | CAR INSURANCE  Contact information ← Back Step 3 / 7  How can we contact you?  J
+PASS | F4 reached requirement step | CAR INSURANCE  What help do you need? ← Back Step 4 / 7  Pick the option closest
+PASS | F5 reached options step | CAR INSURANCE  Available options ← Back Step 5 / 7  We'll contact you with infor
+PASS | F6 provider availability disclaimer shown
+PASS | F7 reached review step | CAR INSURANCE  Review your details ← Back Step 6 / 7  Your information  REGISTRA
+PASS | F8 lead submission success screen | STEP 7 / 7 · NEXT STEP  Request received.  Your details have reached our team. What happens next:  1
+PASS | C1 claim tab opens claim form | CLAIM ASSISTANCE  Need help with an insurance claim?  Tell us what happened. Our
+PASS | C2 claim submission success screen | CLAIM ASSISTANCE REQUEST  Request received.  Our team will contact you and explain the next steps. T
+FAIL | K1 all category images load | [true,true,false,false]
+PASS | K2 truck represented in commercial category
+PASS | K3 tractor category present
+PASS | K4 construction machinery NOT falsely offered
+PASS | R1 /insurance/tractor deep link sets tractor context | Tractor Insurance Check Your Vehicle Insurance  Enter your vehicle number to check available insurance options. Where available, we'll pre-f
+PASS | X1 no console/page errors
+SCREENSHOTS: qa-360.png qa-390.png qa-desktop.png
